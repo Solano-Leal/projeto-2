@@ -1,0 +1,387 @@
+
+body {
+    font-family: 'Sussurro' sans-serif;
+    background-color: rgb(39, 54, 40);
+}
+
+header{
+    text-align: center;
+    background-color: rgb(19, 133, 19);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .topo {
+      display: flex;
+      justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+
+/* nav {
+    width: 500px;
+    margin:  auto;
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+nav a {
+      background-color: rgb(4, 0, 54);
+     padding: 15px 100px;
+     text-decoration: none;
+     color: white;
+     font-size: 18px;
+     margin-top: 15px;
+     display: flex;
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 8, 129);
+    font-weight: 600px;
+    border: 2px solid rgb(77, 77, 77);
+    box-shadow: 5px 3px 20px rgb(122, 172, 134);
+}*/
+
+main {
+margin: 20px;
+}
+
+.imgname {
+    height: 590px;
+    background-image: url(/img/images\ fundoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imagem_topo {
+    width: 100px;
+    padding: 15px;
+}
+
+.nome {
+    display: flex;
+    align-items: center;
+    width: 235px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+h2{
+    font-size: 45px;
+    background-color: rgba(77, 77, 77, 0.514);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.container-arvores {
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-arvores .esquerda{
+    position: fixed;
+    top: 250px;
+    left: 0px;
+}
+
+.container-arvores .direita{
+    position: fixed;
+    top: 250px;
+    right: 0px;
+}
+
+.textos {
+  width: 800px;
+  margin: auto;
+  border: 1px solid rgb(29, 109, 49);
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.flex {
+    display:flex ;
+    align-items: center;
+}
+
+
+
+.gif {
+    width: 100px;
+   height: 100px;
+    animation: rotate 10s linear infinite;  
+}
+
+.titulo {
+    text-align: center;   
+    font-size: 22px;
+    margin: 10px;
+    font-weight: bold;
+    text-shadow: 5px 2px 5px rgb(57, 134, 76);
+}
+
+.tiitulo {    
+    font-size: 22px;
+    margin: 10px;
+    font-weight: bold;
+    text-shadow: 5px 2px 5px rgb(57, 134, 76);
+}
+
+.paragrafo{
+font-size: 18px;
+line-height: 18px;
+margin: 15px 0px;
+}
+
+.textos span {
+font-weight: bold;
+}
+
+
+.mapa {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(19, 133, 19);
+    padding: 20px 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    display: flex;
+    
+}
+
+.grafico {
+    text-align: center;
+}
+
+.link {
+    font-size: 22px;
+    margin: 10px;
+    font-weight: bold;
+    text-shadow: 5px 2px 5px rgb(57, 134, 76);
+    text-decoration: none; 
+    border: 1px solid #333;
+    background-color: rgb(93, 100, 97);
+    padding:  5px;
+}
+
+.end {
+padding: 50px;
+text-align: center;
+
+
+
+}
+
+#video {
+     display: flex;
+     justify-content: center;     
+     padding: 40px;
+     range: url(/img/bkg-video.jpg);
+     background-image: url(https://recreio.uol.com.br/media/_versions/natureza/florestas_capa_widelg.jpg) ;
+     border: 1px solid rgb(12, 230, 66);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+
+footer {
+    background-color: rgb(19, 133, 19);
+}
+
+footer .container {
+      margin: 0px 100px;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+}
+
+footer .midias {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+footer .midias a {
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+footer .midias a:hover {
+transform: translateY(-15px);
+}
+
+footer .midias img {
+width: 50px;
+}
+
+.doacao_titulo {
+    font-size: x-large;
+    border: 2px solid rgb(28, 180, 28);
+    border-radius: 5px;
+}
+
+.doacao_titulo:hover {
+    background-color:rgb(29, 109, 49);
+    font-style: italic;
+}
+
+/*======================== sobre =================*/
+
+.planta {
+    width: auto;
+}
+
+@media (max-width:768px) {
+    .planta{
+      width: 250px;
+    }
+}
+
+@media (max-width: 320px) {
+    .link {
+        display: flex;
+    }
+    .gif {
+        width: 75px;
+        height: 75px;
+    }
+    .doacao {
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form input {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(57, 134, 76);
+}
+
+main form input:focus{
+    outline: none;
+    border: 1px dashed lime;
+}
+
+main form label{
+    margin-top: 15px;
+}
+
+main form textarea{
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(57, 134, 76);
+}
+
+main form textarea:focus{
+    outline: none;
+    border: 1px dashed lime;
+}
+
+main form button{
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(57, 134, 76);
+    background-color: rgb(77, 77, 77);
+    color:rgb(192, 192, 192);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+main form button:hover {
+    color: rgb(57, 134, 76);
+    background-color: rgb(20, 20, 20);
+    box-shadow: 5px 3px 20px rgb(57, 134, 76);
+}
+
+
+@media (max-width:768px) {
+    .textos{
+        width: 100%;
+    }
+     .container-arvores .direita {
+         display: none;
+     }
+
+     .container-arvores .esquerda {
+        display: none;
+     } 
+}
+
+@media (max-width:540px) {
+    nav{
+        flex-direction: column;
+        width: unset;
+        text-align: center;
+    }
+    nav a {
+        margin-bottom: 10px;
+    }
+    #video iframe {
+        width: 100%;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+}
+
+footer .midias {
+    padding-bottom: 25px;
+}
+
+.imagem_footer {
+    text-align: center;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
