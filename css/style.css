@@ -248,6 +248,11 @@ footer .midias img {
 width: 50px;
 }
 
+.social {
+    justify-content: space-evenly;
+    text-align: center;
+}
+
 .doacao_titulo {
     font-size: x-large;
     border: 2px solid rgb(28, 180, 28);
@@ -269,6 +274,22 @@ width: 50px;
     .planta{
       width: 250px;
     }
+}
+
+@media (max-width:425px) {
+    .end {
+        padding: 20px;
+        display: flex;
+    flex-direction: column;
+    }
+}
+
+@media (max-width:375px) {
+    .end {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }    
 }
 
 @media (max-width: 320px) {
