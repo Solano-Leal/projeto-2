@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Sussurro' sans-serif;
     background-color: rgb(39, 54, 40);
@@ -13,35 +12,35 @@ header{
 .topnav {
     background-color: #333;
     overflow: hidden;
-  }
+}
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+.topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+.topnav a:hover {
     background-color: #ddd;
     color: black;
-  }
+}
   
   /* Add a color to the active/current link */
-  .topnav a.active {
+.topnav a.active {
     background-color: #04AA6D;
     color: white;
-  }
+}
 
-  .topo {
-      display: flex;
-      justify-content: space-between;
+.topo {
+    display: flex;
+    justify-content: space-between;
     flex-direction: row-reverse;
-  }
+}
 
 
 /* nav {
@@ -70,7 +69,7 @@ nav a:hover{
 }*/
 
 main {
-margin: 20px;
+    margin: 20px;
 }
 
 .imgname {
@@ -111,23 +110,33 @@ h2{
 
 .container-arvores .esquerda{
     position: fixed;
-    top: 250px;
-    left: 0px;
 }
 
 .container-arvores .direita{
     position: fixed;
-    top: 250px;
-    right: 0px;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+}
+
+.nada {
+    width: 96px;
+    height: 300px;
+}
+
+.gif2 {
+   position: fixed;
 }
 
 .textos {
-  width: 800px;
-  margin: auto;
-  border: 1px solid rgb(29, 109, 49);
-  padding: 10px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+    width: 800px;
+    margin: auto;
+    border: 1px solid rgb(29, 109, 49);
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .flex {
@@ -135,11 +144,9 @@ h2{
     align-items: center;
 }
 
-
-
 .gif {
     width: 100px;
-   height: 100px;
+    height: 100px;
     animation: rotate 10s linear infinite;  
 }
 
@@ -159,13 +166,13 @@ h2{
 }
 
 .paragrafo{
-font-size: 18px;
-line-height: 18px;
-margin: 15px 0px;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 15px 0px;
 }
 
 .textos span {
-font-weight: bold;
+    font-weight: bold;
 }
 
 
@@ -179,7 +186,6 @@ font-weight: bold;
     font-size: 18px;
     margin-top: 15px;
     display: flex;
-    
 }
 
 .grafico {
@@ -198,23 +204,20 @@ font-weight: bold;
 }
 
 .end {
-padding: 50px;
-text-align: center;
-
-
-
+    padding: 50px;
+    text-align: center;
 }
 
 #video {
-     display: flex;
-     justify-content: center;     
-     padding: 40px;
-     range: url(/img/bkg-video.jpg);
-     background-image: url(https://recreio.uol.com.br/media/_versions/natureza/florestas_capa_widelg.jpg) ;
-     border: 1px solid rgb(12, 230, 66);
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
+    display: flex;
+    justify-content: center;     
+    padding: 40px;
+    range: url(/img/bkg-video.jpg);
+    background-image: url(https://recreio.uol.com.br/media/_versions/natureza/florestas_capa_widelg.jpg) ;
+    border: 1px solid rgb(12, 230, 66);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 footer {
@@ -222,10 +225,10 @@ footer {
 }
 
 footer .container {
-      margin: 0px 100px;
-      align-items: center;
-      justify-content: space-between;
-      text-align: center;
+    margin: 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
 }
 
 footer .midias {
@@ -241,11 +244,11 @@ footer .midias a {
 }
 
 footer .midias a:hover {
-transform: translateY(-15px);
+    transform: translateY(-15px);
 }
 
 footer .midias img {
-width: 50px;
+    width: 50px;
 }
 
 .social {
@@ -280,7 +283,7 @@ width: 50px;
     .end {
         padding: 20px;
         display: flex;
-    flex-direction: column;
+        flex-direction: column;
     }
 }
 
@@ -357,18 +360,37 @@ main form button:hover {
     box-shadow: 5px 3px 20px rgb(57, 134, 76);
 }
 
+@media (max-width:1024px) {
+    .direita{
+        display: none;
+    }
+
+    .esquerda {
+        display: none;
+    }
+}
+
 
 @media (max-width:768px) {
     .textos{
         width: 100%;
     }
-     .container-arvores .direita {
-         display: none;
-     }
-
-     .container-arvores .esquerda {
+    .container-arvores .direita {
         display: none;
-     } 
+    }
+
+    .container-arvores .esquerda {
+        display: none;
+    } 
+
+    .gif2 {
+        display: none;
+    }
+
+    .nada {
+        display: none;
+    }
+
 }
 
 @media (max-width:540px) {
@@ -405,4 +427,3 @@ footer .midias {
         transform: rotate(359deg);
     }
 }
-
