@@ -74,7 +74,7 @@ main {
 
 .imgname {
     height: 590px;
-    background-image: url(/img/images\ fundoo.jpg);
+    background-image: url(../img/images\ fundoo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
