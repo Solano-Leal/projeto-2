@@ -281,7 +281,7 @@ footer .midias img {
 
 @media (max-width:425px) {
     .end {
-        padding: 20px;
+        padding: 0px;
         display: flex;
         flex-direction: column;
     }
@@ -289,7 +289,7 @@ footer .midias img {
 
 @media (max-width:375px) {
     .end {
-        padding: 20px;
+        padding: 0px;
         display: flex;
         flex-direction: column;
     }    
